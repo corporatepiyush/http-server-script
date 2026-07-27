@@ -1,0 +1,17 @@
+http-server-script
+Copyright 2026 Piyush
+
+This product includes software developed by Piyush.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for the
+full terms.
+
+This software depends at runtime on, but does not include or redistribute:
+
+  - GNU Bash — https://www.gnu.org/software/bash/ (GPL-3.0-or-later)
+  - socat, by Gerhard Rieger and contributors —
+    http://www.dest-unreach.org/socat/ (GPL-2.0)
+
+Optional runtime dependency, also neither included nor redistributed:
+
+  - curl — https://curl.se/ (curl license), required only for --proxy-target

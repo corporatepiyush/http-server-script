@@ -1,0 +1,21 @@
+# Local-only working directories. The README carries the examples, and the
+# test suite writes its own handler fixtures, so neither is needed in the repo.
+bench/
+examples/
+
+# Runtime artefacts
+trace.log
+*.log
+
+# TLS material — never commit private keys
+*.pem
+*.key
+*.crt
+*.csr
+
+# Editor and OS noise
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
